@@ -89,12 +89,13 @@
 		<MauiXaml Update="Pages\NavContentPageDemo\NavContentPage3.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+		<MauiXaml Update="Pages\TabPageDemo\TabPage.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 	</ItemGroup>
 
 	<ProjectExtensions>
-		<VisualStudio>
-			<UserProperties XamarinHotReloadDebuggerTimeoutExceptionMauiApp1HideInfoBar="True" />
-		</VisualStudio>
+		<VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionMauiApp1HideInfoBar="True" XamarinHotReloadUnhandledDeviceExceptionMauiApp1HideInfoBar="True" /></VisualStudio>
 	</ProjectExtensions>
 
 </Project>

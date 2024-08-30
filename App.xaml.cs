@@ -1,4 +1,4 @@
-﻿using MauiApp1.Pages.FlyoutPageDemo;
+﻿using MauiApp1.Pages.TabPageDemo;
 
 namespace MauiApp1
 {
@@ -16,7 +16,8 @@ namespace MauiApp1
             //navigationPage.BarTextColor = Colors.Black;
             //MainPage = new NavigationPage(new NavContentPage1());
 
-            MainPage = new DemoFlyoutPage();
+            //MainPage = new DemoFlyoutPage();
+            MainPage = new TabPage();
         }
     }
 }
